@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media (max-width: 1200px){
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 767px) {
+    .category_image_box:before{
+        display: none;
+    }
+    .logo{
+        margin-left: 12px;
+    }
+    .logo img{
+        max-width: 100px;
+        width: 100px;
+    }
+    .phone_number{
+        padding: 0;
+        font-size: 14px;
+        margin-right: 10px;
+        background: none;
+    }
+    .log_out{
+        margin-top: 0;
+    }
+    .log_out img{
+        max-width: 100%;
+        width:20px;
+    }
+    .menu_logo_section{
+        margin-top: 0;
+    }
+    header{
+        padding: 15px 0;
+    }
+    .banner_text h2{
+        font-size: 16px;
+    }
+    .banner_text p{
+        font-size: 14px;
+        margin-top: 10px;
+    
+    }
+    .banner_text{
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        position: absolute;
+    }
+    .banner_text a{
+        font-size: 14px;
+        padding: 5px 20px;
+        margin-top: 10px;
+    }
+    .category_section{
+        padding: 30px 0;
+    }
+    .category_box{
+        margin-bottom: 20px;
+    }
+    .advantage_box{
+        margin-bottom: 20px;
+    }
+    .advantage a.button_photobook{
+        font-size: 14px;
+        padding: 5px 20px;
+        margin-top: 20px;
+    }
+    .advantage h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .advantage{
+        padding: 30px 0;
+    }
+    .ready_solution{
+        padding: 20px 0;
+    }
+    .ready_solution h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .ready_solution_box{
+        margin-bottom: 40px;
+    }
+    .testimonials h2{
+        font-size: 25px;
+    }
+    .photo_book_btn a{
+        font-size: 14px;
+        padding: 5px 20px;
+        margin-top: 20px;
+    }
+    .term_payment_shipping{
+        padding: 30px 0;
+    }
+    .term_payment_shipping_box{
+        margin-bottom: 25px;
+    }
+    .term_payment_shipping a.button_photobook{
+        font-size: 14px;
+        margin-top: 20px;
+        padding: 5px 20px;
+    }
+    .footer_link{
+        margin-bottom: 20px;
+    }
+}
